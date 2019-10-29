@@ -1,0 +1,46 @@
+{
+  "name": "net.joeir.hiremelah",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@hot-loader/react-dom": "^16.10.2",
+    "@types/jest": "24.0.20",
+    "@types/node": "12.11.7",
+    "@types/react": "^16.9.11",
+    "@types/react-dom": "16.9.3",
+    "@types/react-hot-loader": "^4.1.0",
+    "@types/react-router-dom": "^5.1.0",
+    "customize-cra": "^0.8.0",
+    "gh-pages": "^2.1.1",
+    "react": "^16.11.0",
+    "react-app-rewire-hot-loader": "^2.0.1",
+    "react-app-rewired": "^2.1.4",
+    "react-dom": "^16.11.0",
+    "react-hot-loader": "^4.12.15",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.2.0",
+    "typescript": "3.6.4"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d gh-pages",
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+# development artifacts
+node_modules
+public
+src
+README.md
+
+# configurations
+tsconfig.json
+package.json
+package-lock.json
