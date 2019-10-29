@@ -1,4 +1,4 @@
-IMAGE_URL=zephinzer/hiremelah
+IMAGE_URL=zephinzer/net-joeir-get
 VERSION=$$(date +'%Y%m%d')
 
 start:
